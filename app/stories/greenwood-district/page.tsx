@@ -92,7 +92,7 @@ export default function GreenwoodStory() {
               <li><a href="https://www.nps.gov/people/olivia-hooker.htm" target="_blank" rel="noreferrer"><strong>National Park Service</strong><span>Survivor Olivia Hooker’s life and testimony ↗</span></a></li>
             </ol>
           </section>
-          <nav className="story-pagination" aria-label="Story navigation"><a href="/stories/harriet-tubman-escapes">← Harriet Tubman Escapes</a><span>Next story<br/><strong>The Montgomery Bus Boycott →</strong></span></nav>
+          <nav className="story-pagination" aria-label="Story navigation"><a href="/stories/harriet-tubman-escapes">← Harriet Tubman Escapes</a><a className="next-story" href="/stories/montgomery-bus-boycott">Next story<br/><strong>The Montgomery Bus Boycott →</strong></a></nav>
         </div>
       </div>
     </article>
