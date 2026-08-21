@@ -78,7 +78,7 @@ export default function MansaMusaStory() {
               <li><a href="https://sova.si.edu/record/eepa.1973-001/ref7667" target="_blank" rel="noreferrer"><strong>Smithsonian Institution Archives</strong><span>Djinguereber Mosque collection record and historical context ↗</span></a></li>
             </ol>
           </section>
-          <nav className="story-pagination" aria-label="Story navigation"><a href="/stories/kingdom-of-aksum">← Kingdom of Aksum</a><span>Next story<br/><strong>Haiti Declares Independence →</strong></span></nav>
+          <nav className="story-pagination" aria-label="Story navigation"><a href="/stories/kingdom-of-aksum">← Kingdom of Aksum</a><a className="next-story" href="/stories/haiti-declares-independence">Next story<br/><strong>Haiti Declares Independence →</strong></a></nav>
         </div>
       </div>
     </article>
