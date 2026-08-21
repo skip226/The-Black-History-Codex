@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 type Entry={year:string;title:string;category:string;era:string;summary:string;accent:string;slug?:string};
 const entries:Entry[]=[
 {year:"c. 300",title:"The Kingdom of Aksum",category:"Civilizations",era:"Ancient Africa",summary:"A major trading power connected Africa, Arabia, and the Mediterranean—and minted its own remarkable currency.",accent:"gold",slug:"/stories/kingdom-of-aksum"},
-{year:"1324",title:"Mansa Musa’s Pilgrimage",category:"Leaders",era:"Medieval Africa",summary:"The ruler of Mali crossed North Africa on a journey that revealed the scale, learning, and wealth of his empire.",accent:"copper"},
+{year:"1324",title:"Mansa Musa’s Pilgrimage",category:"Leaders",era:"Medieval Africa",summary:"The ruler of Mali crossed North Africa on a journey that revealed the scale, learning, and wealth of his empire.",accent:"copper",slug:"/stories/mansa-musa-pilgrimage"},
 {year:"1804",title:"Haiti Declares Independence",category:"Revolutions",era:"Resistance & Freedom",summary:"The Haitian Revolution created the world’s first independent Black republic and shattered the logic of colonial slavery.",accent:"red"},
 {year:"1849",title:"Harriet Tubman Escapes",category:"People",era:"Resistance & Freedom",summary:"After reaching freedom, Tubman repeatedly returned south, guiding others along the Underground Railroad.",accent:"green"},
 {year:"1921",title:"The Greenwood District",category:"Communities",era:"Reconstruction & Renaissance",summary:"Tulsa’s prosperous Black community built a powerful local economy before racial terror devastated the district.",accent:"blue"},
