@@ -91,7 +91,7 @@ export default function HarrietTubmanStory() {
               <li><a href="https://www.archives.gov/legislative/resources/education/tubman" target="_blank" rel="noreferrer"><strong>National Archives</strong><span>Tubman’s Civil War service and pension claim ↗</span></a></li>
             </ol>
           </section>
-          <nav className="story-pagination" aria-label="Story navigation"><a href="/stories/haiti-declares-independence">← Haiti Declares Independence</a><span>Next story<br/><strong>The Greenwood District →</strong></span></nav>
+          <nav className="story-pagination" aria-label="Story navigation"><a href="/stories/haiti-declares-independence">← Haiti Declares Independence</a><a className="next-story" href="/stories/greenwood-district">Next story<br/><strong>The Greenwood District →</strong></a></nav>
         </div>
       </div>
     </article>
