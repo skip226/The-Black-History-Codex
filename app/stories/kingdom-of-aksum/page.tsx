@@ -30,7 +30,7 @@ export default function AksumStory() {
         <div className="article-kicker">Civilizations <span>•</span> Ancient Africa <span>•</span> 1st–8th centuries CE</div>
         <h1>The Kingdom<br/>of <em>Aksum</em></h1>
         <p>An African power linked three continents through commerce, diplomacy, writing, monumental architecture, and faith.</p>
-        <div className="article-hero-art" role="img" aria-label="Editorial illustration of monumental Aksumite stelae in the Ethiopian highlands"><span>Original editorial illustration</span></div>
+        <div className="article-hero-art aksum-art" role="img" aria-label="Editorial illustration of monumental Aksumite stelae in the Ethiopian highlands"><span>Original editorial illustration</span></div>
       </section>
       <section className="article-facts" aria-label="Key facts">{facts.map(([label,value])=><div key={label}><span>{label}</span><strong>{value}</strong></div>)}</section>
       <div className="article-layout">
@@ -73,7 +73,7 @@ export default function AksumStory() {
               <li><a href="https://smarthistory.org/aksumite-coins/" target="_blank" rel="noreferrer"><strong>Smarthistory</strong><span>Aksumite coins and what they reveal ↗</span></a></li>
             </ol>
           </section>
-          <nav className="story-pagination" aria-label="Story navigation"><a href="/#explore">← All entries</a><span>Next story<br/><strong>Mansa Musa’s Pilgrimage →</strong></span></nav>
+          <nav className="story-pagination" aria-label="Story navigation"><a href="/#explore">← All entries</a><a className="next-story" href="/stories/mansa-musa-pilgrimage">Next story<br/><strong>Mansa Musa’s Pilgrimage →</strong></a></nav>
         </div>
       </div>
     </article>
