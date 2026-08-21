@@ -84,7 +84,7 @@ export default function HaitiIndependenceStory() {
               <li><a href="https://americanhistory.si.edu/explore/exhibitions/american-democracy/online/great-leap/great-debates/revolutionary-world" target="_blank" rel="noreferrer"><strong>Smithsonian National Museum of American History</strong><span>Haiti in a revolutionary Atlantic world ↗</span></a></li>
             </ol>
           </section>
-          <nav className="story-pagination" aria-label="Story navigation"><a href="/stories/mansa-musa-pilgrimage">← Mansa Musa’s Pilgrimage</a><span>Next story<br/><strong>Harriet Tubman Escapes →</strong></span></nav>
+          <nav className="story-pagination" aria-label="Story navigation"><a href="/stories/mansa-musa-pilgrimage">← Mansa Musa’s Pilgrimage</a><a className="next-story" href="/stories/harriet-tubman-escapes">Next story<br/><strong>Harriet Tubman Escapes →</strong></a></nav>
         </div>
       </div>
     </article>
