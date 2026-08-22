@@ -98,7 +98,7 @@ export default function MontgomeryBoycottStory() {
               <li><a href="https://kinginstitute.stanford.edu/montgomery-bus-boycott" target="_blank" rel="noreferrer"><strong>Stanford King Institute</strong><span>The campaign’s roots, leadership, and mass participation ↗</span></a></li>
             </ol>
           </section>
-          <nav className="story-pagination" aria-label="Story navigation"><a href="/stories/greenwood-district">← The Greenwood District</a><span>Next story<br/><strong>The Black Panther Party →</strong></span></nav>
+          <nav className="story-pagination" aria-label="Story navigation"><a href="/stories/greenwood-district">← The Greenwood District</a><a className="next-story" href="/stories/black-panther-party">Next story<strong>The Black Panther Party →</strong></a></nav>
         </div>
       </div>
     </article>
