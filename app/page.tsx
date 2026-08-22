@@ -9,7 +9,7 @@ const entries:Entry[]=[
 {year:"1849",title:"Harriet Tubman Escapes",category:"People",era:"Resistance & Freedom",summary:"After reaching freedom, Tubman repeatedly returned south, guiding others along the Underground Railroad.",accent:"green",slug:"/stories/harriet-tubman-escapes"},
 {year:"1921",title:"The Greenwood District",category:"Communities",era:"Reconstruction & Renaissance",summary:"Tulsa’s prosperous Black community built a powerful local economy before racial terror devastated the district.",accent:"blue",slug:"/stories/greenwood-district"},
 {year:"1955",title:"The Montgomery Bus Boycott",category:"Movements",era:"Civil Rights Era",summary:"A 381-day mass protest challenged segregated transit and demonstrated the power of sustained community organizing.",accent:"violet",slug:"/stories/montgomery-bus-boycott"},
-{year:"1966",title:"The Black Panther Party",category:"Movements",era:"Black Power Era",summary:"Founded in Oakland, the organization paired political self-determination with community survival programs.",accent:"charcoal"},
+{year:"1966",title:"The Black Panther Party",category:"Movements",era:"Black Power Era",summary:"Founded in Oakland, the organization paired political self-determination with community survival programs.",accent:"charcoal",slug:"/stories/black-panther-party"},
 {year:"2008",title:"A Historic Presidential Election",category:"Politics",era:"Contemporary",summary:"Barack Obama’s election as the 44th U.S. president marked an unprecedented milestone in American political history.",accent:"indigo"}];
 const eras=["All eras","Ancient Africa","Medieval Africa","Resistance & Freedom","Reconstruction & Renaissance","Civil Rights Era","Black Power Era","Contemporary"];
 
